@@ -5,7 +5,7 @@ import QtQuick.Controls.Material 2.13
 
 Window {
   width: 620
-  height: 380
+  height: 500
   visible: true
 
     Page {
