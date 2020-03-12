@@ -5,8 +5,9 @@ import QtQuick.Controls.Material 2.13
 
 Window {
   width: 620
-  height: 380
+  height: 620
   visible: true
+  title: "QML analog clock"
 
     Page {
       anchors.fill: parent
