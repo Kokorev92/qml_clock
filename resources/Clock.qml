@@ -3,10 +3,10 @@ import QtQuick.Controls 2.13
 
 Canvas {
     id: clock_canvas
-    width: 480
-    height: 480
+    width: Math.min(parent.width, parent.height)
+    height: width
     antialiasing: true
-    anchors.fill: parent
+    anchors.centerIn: parent
     onPaint: {
         var ctx = clock_canvas.getContext("2d")
         ctx.strokeRect(0,0,width, height);
