@@ -6,6 +6,7 @@ Canvas {
     width: 480
     height: 480
     antialiasing: true
+    anchors.fill: parent
     onPaint: {
         var ctx = clock_canvas.getContext("2d")
         ctx.strokeRect(0,0,width, height);
