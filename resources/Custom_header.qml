@@ -7,11 +7,9 @@ MenuBar {
     id: menu_bar
     contentWidth: 20
     Material.theme: Material.Dark
-    Material.accent: Material.Orange
     Menu {
         id: menu
         Material.theme: Material.Dark
-        Material.accent: Material.Orange
         title: qsTr("Menu")
         Action { 
             text: "About"
