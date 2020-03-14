@@ -34,7 +34,7 @@ MenuBar {
         closePolicy: Popup.NoAutoClose
 
         Text {
-            text: "QML analog clock\nIt's learning project"
+            text: qsTr('<font color="red">QML analog clock<br/>It is learning project</font>')
             anchors.centerIn: parent
         }
     }
