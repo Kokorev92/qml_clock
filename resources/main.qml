@@ -15,6 +15,11 @@ Window {
         header: Custom_header {
             id: header
         }
+        Rectangle {
+            width: parent.width
+            height: parent.height
+            color: "#FFFFFF"
+        }
         Clock {}
     }
 }
